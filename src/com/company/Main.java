@@ -105,7 +105,7 @@ public class Main {
                         }
                     }
                 }
-                System.out.println(currentFinalState);
+                // System.out.println(currentFinalState);
                 if (!isWrong) {
                     System.out.println(isPathExists(allStates.get(currentState), new ArrayList<>(), Integer.toString(currentFinalState)));
                 }
@@ -117,7 +117,6 @@ public class Main {
             System.out.println("Invalid input in input file!");
             System.out.println(e);
         }
-        System.out.println("Ok");
         return;
     }
 
